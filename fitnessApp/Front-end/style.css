@@ -34,6 +34,17 @@ body {
     cursor: pointer;
 }
 
+.flex-box:hover {
+    color: darkcyan;
+    margin: 0;
+}
+
+.flex-box h2{
+    color: rgb(10, 16, 16);
+    margin: 0;
+}
+
+
 
 
 section {
