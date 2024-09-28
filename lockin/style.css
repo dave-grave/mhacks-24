@@ -1,0 +1,91 @@
+h1 {
+    
+    background: #35424a;
+    color: rgb(211, 57, 57);
+    padding: 20px 0;
+}
+
+h3{
+    
+    color:rgb(247, 243, 241);
+}
+
+
+
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF; /* Bootstrap primary color */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+
+
+
+body {
+    background-image: url("./images/deadlift.jpg");
+    background-size: cover;
+    font-family: "Impact";
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.flex-box {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.flex-box:hover {
+    color: darkcyan;
+    margin: 0;
+}
+
+.flex-box h2{
+    color: rgb(10, 16, 16);
+    margin: 0;
+}
+
+
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+img {
+    width: 500px;
+    height: 400px;
+}
+
+#Chart {
+    border: 1px solid rgb(90, 160, 125); /* Add this line for visibility */
+}
+
