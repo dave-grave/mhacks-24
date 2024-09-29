@@ -8,13 +8,14 @@ document.addEventListener("DOMContentLoaded", function () {
         {
           label: "Performance",
           data: [80, 70, 90, 60], // Update this as needed
-          backgroundColor: "rgba(75, 192, 192, 0.2)",
-          borderColor: "rgba(75, 192, 192, 1)",
+          backgroundColor: "rgba(255, 255, 255, 0.2)",
+          borderColor: "rgba(255, 255, 255, 1)",
           borderWidth: 1,
         },
       ],
     },
     options: {
+      maintainAspectRatio: false,
       scale: {
         ticks: {
           beginAtZero: true,
@@ -24,3 +25,8 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   });
 });
+
+// function that opens different html page
+function openPage(url) {
+  window.open(url);
+}
